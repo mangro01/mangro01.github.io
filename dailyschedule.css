@@ -2,6 +2,7 @@
            body {
             background-color:yellow;
            } 
+           
            table {
             border-style: groove;
             border-width:3px;
@@ -10,7 +11,7 @@
             border-color:DarkBlue;
             text-align:center;
             background-color: Salmon;
-            
+            font-family: "Comic Sans MS", cursive, sans-serif;
           }
           caption {
             font-family:sans-serif;
