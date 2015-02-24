@@ -22,8 +22,15 @@
             background-color:aqua;
             text-align:center;
             font-size:15pt;
+            color:green;
           }
           th {
            font-size:20pt;
-           text-color:red;
+           color:purple;
+          }
+          
+          .lunch {
+           border-color:purple;
+           font-family:fantasy;
+           color:red;
           }
