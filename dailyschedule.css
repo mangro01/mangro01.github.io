@@ -5,14 +5,15 @@
             border-spacing:3px;
             border-color:DarkBlue;
             text-align:center;
-            text-shadow: 2px 2px 4px purple;
+            
           }
           caption {
             font-family:sans-serif;
             font-size:40pt;
             border-style:dotted;
             border-color:purple;
-            border-width:5px;
+            border-width:10px;
+            text-shadow: 2px 2px 4px purple;
           }
           td {
             border-style:groove;
