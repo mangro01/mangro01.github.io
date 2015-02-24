@@ -31,6 +31,8 @@
           
           .lunch {
            border-color:purple;
+           border-style:dashed;
+           border-width:10px;
            font-family:fantasy;
            color:red;
           }
