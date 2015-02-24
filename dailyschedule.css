@@ -36,3 +36,10 @@
            font-family:fantasy;
            color:red;
           }
+          
+          .freetime {
+           border-style: dotted dashed;
+           border-color: SpringGreen;
+           background-color:coral;
+           text-family: comic;
+          }
