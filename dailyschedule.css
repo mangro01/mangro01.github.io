@@ -2,19 +2,22 @@
             border-style: groove;
             border-width:3px;
             width:100%;
-            border-spacing:5px;
+            border-spacing:3px;
             border-color:DarkBlue;
             text-align:center;
           }
           caption {
             font-family:sans-serif;
-            font-size:20pt;
+            font-size:40pt;
             border-style:dotted;
             border-color:purple;
             border-width:5px;
           }
           td {
-            border-style:solid;
+            border-style:groove;
             border-color:green;
+            border-width:5px;
+            background-color:aqua;
             text-align:center;
+            font-size:15pt;
           }
