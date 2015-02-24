@@ -1,0 +1,41 @@
+          h1  {
+            color: #1E90FF;
+            font-size:30pt;
+            font-family:sans-serif;
+          }
+          h3  {
+            color:DarkOrchid;
+            font-size:20pt;
+            font-family:serif;
+          }
+          strong {
+            color:RoyalBlue;
+            font-family:fantasy;
+            font-size:20pt;
+          }
+          body {
+            background-color:PowderBlue;
+            text-align:center;
+          }
+          ul {
+            list-style-type:none;
+            text-align:center;
+          }
+          ol {
+            list-style-position:inside;
+            text-align:center;
+          }
+          .goodbye {
+            color:green;
+            font-family:fantasy;
+            font-size: 35pt;
+          }
+          strong#fun {
+            color: rgb(00,00,00);
+            font-size:20pt;
+          }
+          .links {
+            color:purple;
+            font-size:15pt;
+            text-decoration:underline;
+          }
