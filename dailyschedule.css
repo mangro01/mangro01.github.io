@@ -5,6 +5,7 @@
             border-spacing:3px;
             border-color:DarkBlue;
             text-align:center;
+            text-shadow: 2px 2px 4px purple;
           }
           caption {
             font-family:sans-serif;
@@ -20,4 +21,8 @@
             background-color:aqua;
             text-align:center;
             font-size:15pt;
+          }
+          th {
+           font-size:20pt;
+           text-color:red;
           }
