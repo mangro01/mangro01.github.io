@@ -4,12 +4,13 @@
             font-family:sans-serif;
             border-style:groove dotted groove;
             border-color:pink;
+            border-width:10px;
           }
           h3  {
             color:DarkOrchid;
-            font-size:20pt;
+            font-size:30pt;
             font-family:serif;
-            text-decoration:underline;
+            text-decoration:underline 5px;
           }
           strong {
             color:RoyalBlue;
