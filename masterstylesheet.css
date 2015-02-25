@@ -50,7 +50,11 @@
             text-decoration:underline;
           }
           
-          #chickens {
+          #chicken1 {
            float:left;
+           width:300px;
+          }
+          #chicken2 {
+           float:right;
            width:300px;
           }
