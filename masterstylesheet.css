@@ -25,6 +25,10 @@
             list-style-position:inside;
             text-align:center;
           }
+          img {
+            border-style:inset;
+            border-width:3px;
+          }
           .goodbye {
             color:green;
             font-family:fantasy;
