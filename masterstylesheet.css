@@ -59,10 +59,12 @@
           #chicken1 {
            float:left;
            width:300px;
-           margin:0px;
+           margin-left:0px;
+           display:inline;
           }
           #chicken2 {
            float:right;
            width:300px;
-           margin:0px;
+           margin-right:0px;
+           display:inline;
           }
