@@ -58,11 +58,11 @@
           
           #chicken1 {
            width:300px;
-           left:-300px;
+           left:-500px;
            position:relative;
           }
           #chicken2 {
            width:300px;
-           right:300px;
+           right:500px;
            position:relative;
           }
