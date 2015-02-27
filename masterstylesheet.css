@@ -57,12 +57,10 @@
           }
           
           #chicken1 {
-           width:300px;
-           left:-500px;
-           position:relative;
+           float:left;
+           width:300px;    
           }
           #chicken2 {
+           float:right;          
            width:300px;
-           left:500px;
-           position:relative;
           }
