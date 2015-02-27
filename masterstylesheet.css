@@ -60,9 +60,13 @@
            float:left;
            width:300px;
            margin:0px;
+           position:relative;
+           z-index:-1;
           }
           #chicken2 {
            float:right;
            width:300px;
            margin:0px;
+           position:relative;
+           z-index:-1;
           }
