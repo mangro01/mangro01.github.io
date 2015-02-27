@@ -41,6 +41,8 @@
            position:absolute;
            margin:auto;
            text-align:center;
+           border-style:solid;
+           border-color:black;
           }
           .goodbye {
             color:green;
