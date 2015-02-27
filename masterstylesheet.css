@@ -39,6 +39,7 @@
           }
           section {
             margin:auto;
+            position:relative;
           }
           .goodbye {
             color:green;
