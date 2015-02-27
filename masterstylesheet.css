@@ -23,6 +23,7 @@
           body {
             background-color:PowderBlue;
             text-align:center;
+            position:relative;
           }
           ul {
             list-style-type:none;
@@ -38,8 +39,7 @@
             border-color:black purple;
           }
           section {
-            margin:auto;
-           
+           position:absolute;
           }
           .goodbye {
             color:green;
