@@ -39,7 +39,7 @@
           }
           section {
             margin:auto;
-            position:relative;
+           
           }
           .goodbye {
             color:green;
@@ -61,10 +61,12 @@
            width:300px;
            margin-left:0px;
            display:inline;
+           position:relative;
           }
           #chicken2 {
            float:right;
            width:300px;
            margin-right:0px;
            display:inline;
+           position:relative;
           }
