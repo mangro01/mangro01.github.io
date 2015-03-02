@@ -43,6 +43,12 @@
            margin-right:10%;
            text-align:center;
           }
+          footer {
+           position:relative;
+           margin-left:5%;
+           margin-right:5%;
+           background-color:#2BD32B;
+          }
           .goodbye {
             color:green;
             font-family:fantasy;
