@@ -6,8 +6,9 @@
             border-color:pink purple pink;
             border-width:10px;
             background-color:yellow;
-            width:800px;
+            width:60%;
             margin-left:20%;
+            margin-right:20%;
           }
           h3  {
             color:DarkOrchid;
