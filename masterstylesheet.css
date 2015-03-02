@@ -47,7 +47,7 @@
            position:fixed;
            margin-left:5%;
            margin-right:5%;
-           margin-bottom:0px;
+           bottom:0px;
           }
           .goodbye {
             color:green;
