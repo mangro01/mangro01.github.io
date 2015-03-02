@@ -44,7 +44,7 @@
            text-align:center;
           }
           footer {
-           position:fixed;
+           position:relative;
            margin-left:5%;
            margin-right:5%;
            bottom:0px;
