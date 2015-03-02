@@ -52,6 +52,8 @@
             font-family:fantasy;
             font-size: 35pt;
             width:500px;
+            position:absolute;
+            
           }
           strong#fun {
             color: rgb(00,00,00);
