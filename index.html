@@ -11,7 +11,7 @@
     <img id="chicken1" src=http://www.rfadventures.com/images/Animals/Birds/pic-White%2520Silkie%2520Chickens.jpg>
     <img id="chicken2" src=http://images.christianpost.com/full/77005/baby-chickens.jpg>
     
-   <section>
+   <section id="section">
     <ol>
       <li><strong>My Class Asignments ;)</strong>
         <ol>
@@ -70,7 +70,7 @@
       <p> 
       I hope you have enjoyed my fun pictures and links. I aim to make a very <strong id="fun">fun</strong> and <em>unique</em> webzone.
       </p>  
-      <footer>
+      <footer id="footer">
        <h1 class="goodbye">Have a nice day!</h1>
        <button onclick="change();">Change the Look!</button>
       </footer>
@@ -79,7 +79,12 @@
           <script>
             change = function()
             { document.body.style.backgroundColor = "pink";
-              document.footer.style.backgroundColor = "pink";
+              
+              footer = document.querySelector("#footer");
+              footer.style.backgroundColor = "pink";
+              
+              section = document.querySelector("#section");
+              section.style.backgroundColor = "pink";
             }
           </script>
 
