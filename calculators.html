@@ -13,9 +13,9 @@
   </main>      
         <h1 id="tempoutput"></h1>
         
-  <body id="bmiconverter">
+  <body>
   
-    <h3>Body Mass Indicator Calculator!</h3>
+    <h3 id="bmiconverter">Body Mass Indicator Calculator!</h3>
     
     <label for="weight">Weight in Pounds</label>
         <input id="weight" type="text">
@@ -46,7 +46,7 @@
                 mywieght = weight.value;
                 myhieght = height.value;
               
-              bmih1.innerHTML = "myweight * 703" / "myheight * myheight");
+              bmih1.innerHTML = myweight * 703 / myheight * myheight;
               bmih1.style.visibility="visible";
 
             }
