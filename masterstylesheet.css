@@ -95,3 +95,7 @@
           #bmioutput {
            visibility:hidden;
           }
+          #bmiconverter {
+           border-style:groove;
+           border-color:purple yellow purple;
+          }
