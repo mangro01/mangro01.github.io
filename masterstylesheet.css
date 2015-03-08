@@ -24,8 +24,8 @@
            main {
             font-family:fantasy;
             font-size:40pt;
-            border-style:solid;
-            background-color:lightgreen;
+            border-style:groove;
+            border-color:purple yellow purple;
             border-width:10px;
           }
           body {
