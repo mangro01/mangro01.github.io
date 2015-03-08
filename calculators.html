@@ -14,13 +14,12 @@
         <h1 id="output"></h1>
         
         <script>
-
+                 h1 = document.querySelector("#output")
+                 
             convert = function() {
               degreesF = document.querySelector("#degreesF")
               degreesC = degreesF.value;
               
-                 h1 = document.querySelector("#output")
-                 h1.style.visibility = "hidden"
                 h1.innerHTML = degreesC / 1.8 - 32;
                 h1.style.visibilty = "visible"
             }
