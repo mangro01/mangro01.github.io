@@ -7,7 +7,7 @@
 
   <body>
   <main>
-  <label for="box">Farhenheit to Celsius</label>
+  <label for="box">Celsius to Fahrenheit</label>
         <input id="degreesF" type="text">
         <button onclick="convert();">convert</button>
   </main>      
@@ -20,8 +20,8 @@
               degreesF = document.querySelector("#degreesF")
               degreesC = degreesF.value;
               
-                h1.innerHTML = degreesC - 32 / 1.8 ;
-                h1.innerHTML = "h1.style.visibility='visible'";
+                h1.innerHTML = degreesC * 1.8 + 32 + "Degrees Fahrenheit" ;
+                h1.style.visibility="visible";
             }
         </script> 
   
