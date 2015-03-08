@@ -27,6 +27,7 @@
             border-style:groove;
             border-color:purple yellow purple;
             border-width:10px;
+            background-color:lightgreen;
           }
           body {
             background-color:PowderBlue;
@@ -102,4 +103,5 @@
            border-width:10px;
            background-color:lightgreen;
            font-size:40pt;
+           font-family:fantasy;
           }
