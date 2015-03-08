@@ -3,13 +3,23 @@
     <title>Let's Do Some Calculating!</title>
       
       <link rel="stylesheet" href="masterstylesheet.css" type="text/css">
+      
+        <style>
+          main {
+            font-family:fantasy;
+            font-size:25pt;
+            border-style:solid;
+            background-color:lightgreen;
+          }
+        </style>
   </head>
 
   <body>
-  
+  <main>
   <label for="box"> Celsius to Farhenheit</label>
         <input id="degreesF" type="text">
         <button onclick="convert();">convert</button>
+  </main>      
         <h1 id="output"></h1>
         
         <script>
