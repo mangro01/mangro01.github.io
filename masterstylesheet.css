@@ -89,3 +89,6 @@
            position:fixed;
            z-index:-1;
           }
+          #output {
+           visibility:hidden;
+          }
