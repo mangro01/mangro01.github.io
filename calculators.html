@@ -3,20 +3,11 @@
     <title>Let's Do Some Calculating!</title>
       
       <link rel="stylesheet" href="masterstylesheet.css" type="text/css">
-      
-        <style>
-          main {
-            font-family:fantasy;
-            font-size:25pt;
-            border-style:solid;
-            background-color:lightgreen;
-          }
-        </style>
   </head>
 
   <body>
   <main>
-  <label for="box"> Celsius to Farhenheit</label>
+  <label for="box">Farhenheit to Celsius</label>
         <input id="degreesF" type="text">
         <button onclick="convert();">convert</button>
   </main>      
@@ -24,13 +15,13 @@
         
         <script>
           h1 = document.querySelector("#output")
-            h1.style.display = "vanish"
+            h1.style.visibility = "hidden"
             convert = function() {
               degreesF = document.querySelector("#degreesF")
               degreesC = degreesF.value;
                 
-                h1.innerHTML = degreesC * 1.8 + 32;
-                h1.style.display = "display"
+                h1.innerHTML = degreesC / 1.8 - 32;
+                h1.style.visibilty = "visible"
             }
         </script> 
   
