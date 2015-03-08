@@ -23,9 +23,10 @@
           }
            main {
             font-family:fantasy;
-            font-size:25pt;
+            font-size:40pt;
             border-style:solid;
             background-color:lightgreen;
+            border-width:10px;
           }
           body {
             background-color:PowderBlue;
@@ -93,11 +94,12 @@
            visibility:hidden;
           }
           #bmioutput {
-           visibility:visible;
+           visibility:hidden;
           }
           #bmiconverter {
            border-style:groove;
            border-color:purple yellow purple;
-           border-width:5px;
+           border-width:10px;
            background-color:lightgreen;
+           font-size:40pt;
           }
