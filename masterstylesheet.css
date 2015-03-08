@@ -89,6 +89,9 @@
            position:fixed;
            z-index:-1;
           }
-          #output {
+          #tempoutput {
+           visibility:hidden;
+          }
+          #bmioutput {
            visibility:hidden;
           }
