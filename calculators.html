@@ -13,20 +13,21 @@
   </main>      
         <h1 id="tempoutput"></h1>
         
-  <section>
+  <body>
   
     <h3>Body Mass Indicator Calculator!</h3>
     
-    <label for="weight">Weight</label>
+    <label for="weight">Weight in Pounds</label>
         <input id="weight" type="text">
         
-    <label for="height">Height</label>
+    <label for="height">Height in Inches</label>
         <input id="height" type="text">  
         
        <button onclick="bmiconvert();">BMI!</button>
        
-  </section>      
+  </body>      
         <h1 id="bmioutput"></h1>
+        
         <script>
                  temph1 = document.querySelector("#tempoutput")
                  bmih1 = document.querySelector("#bmioutput")
@@ -42,8 +43,10 @@
             bmiconvert = function () {
               weight = document.querySelector("#weight")
               height = document.querySelector("#height")
+                mywieght = weight.value;
+                myhieght = height.value;
               
-              bmih1.innerHTML = (weight * 703) / (height * height);
+              bmih1.innerHTML = (myweight * 703) / (myheight * myheight);
               bmih1.style.visibility="visible"
 
             }
