@@ -21,6 +21,12 @@
             font-family:fantasy;
             font-size:20pt;
           }
+           main {
+            font-family:fantasy;
+            font-size:25pt;
+            border-style:solid;
+            background-color:lightgreen;
+          }
           body {
             background-color:PowderBlue;
             text-align:center;
