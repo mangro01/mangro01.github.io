@@ -7,21 +7,45 @@
 
   <body>
   <main>
-  <label for="box">Celsius to Fahrenheit</label>
-        <input id="degreesF" type="text">
+  <label for="degreesC">Celsius to Fahrenheit</label>
+        <input id="degreesC" type="text">
         <button onclick="convert();">convert</button>
   </main>      
-        <h1 id="output"></h1>
+        <h1 id="tempoutput"></h1>
         
+  <section>
+  
+    <h3>Body Mass Indicator Calculator!</h3>
+    
+    <label for="weight">Weight</label>
+        <input id="weight" type="text">
+        
+    <label for="height">Height</label>
+        <input id="height" type="text">  
+        
+       <button onclick="bmiconvert();">BMI!</button>
+       
+  </section>      
+        <h1 id="bmioutput"></h1>
         <script>
-                 h1 = document.querySelector("#output")
+                 temph1 = document.querySelector("#tempoutput")
+                 bmih1 = document.querySelector("#bmioutput")
                  
             convert = function() {
-              degreesF = document.querySelector("#degreesF")
-              degreesC = degreesF.value;
+              degreesC = document.querySelector("#degreesC")
+              degreesF = degreesC.value;
               
-                h1.innerHTML = degreesC * 1.8 + 32 + "° Fahrenheit" ;
-                h1.style.visibility="visible";
+                temph1.innerHTML = degreesF * 1.8 + 32 + "° Fahrenheit" ;
+                temph1.style.visibility="visible";
+            }
+            
+            bmiconvert = function () {
+              weight = document.querySelector("#weight")
+              height = document.querySelector("#height")
+              
+              bmih1.innerHTML = (weight * 703) / (height * height);
+              bmih1.style.visibility="visible"
+
             }
         </script> 
   
