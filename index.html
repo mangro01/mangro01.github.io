@@ -12,6 +12,15 @@
               section = document.querySelector("#section");
               section.style.backgroundColor = "pink";
             }
+            revert = function()
+            { document.body.style.backgroundColor = "powderblue";
+              
+              footer = document.querySelector("#footer");
+              footer.style.backgroundColor = "powderblue";
+              
+              section = document.querySelector("#section");
+              section.style.backgroundColor = "powderblue";
+            }
           </script>          
   </head>
   <body>
@@ -83,8 +92,9 @@
       I hope you have enjoyed my fun pictures and links. I aim to make a very <strong id="fun">fun</strong> and <em>unique</em> webzone.
       </p>  
       <footer id="footer">
-       <h1 id="goodbye">Have a nice day!</h1>
        <button onclick="change();">Change the Look!</button>
+       <button onclick="revert();">Change it back!</button>
+       <h1 id="goodbye">Have a nice day!</h1>
       </footer>
       </section>
   </body>
