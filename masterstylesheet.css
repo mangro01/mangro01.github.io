@@ -98,6 +98,7 @@
           }
           #goodbye {
             color:green;
+            background-color:yellow;
             font-family:fantasy;
             font-size: 35pt;
             width:500px;
