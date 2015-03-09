@@ -97,7 +97,7 @@
            font-size:40pt;
            font-family:fantasy;
           }
-          #goodbye {
+          .goodbye {
             color:green;
             background-color:yellow;
             font-family:fantasy;
