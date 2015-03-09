@@ -2,6 +2,17 @@
   <head>
     <title>Rob's Webpage</title>
           <link rel="stylesheet" href="masterstylesheet.css" type="text/css">
+           <script>
+            change = function()
+            { document.body.style.backgroundColor = "pink";
+              
+              footer = document.querySelector("#footer");
+              footer.style.backgroundColor = "pink";
+              
+              section = document.querySelector("#section");
+              section.style.backgroundColor = "pink";
+            }
+          </script>          
   </head>
   <body>
     <h1><em>What's Up Nerds?</em></h1>
@@ -76,18 +87,5 @@
        <button onclick="change();">Change the Look!</button>
       </footer>
       </section>
-          
-          <script>
-            change = function()
-            { document.body.style.backgroundColor = "pink";
-              
-              footer = document.querySelector("#footer");
-              footer.style.backgroundColor = "pink";
-              
-              section = document.querySelector("#section");
-              section.style.backgroundColor = "pink";
-            }
-          </script>
-
   </body>
 </html>
