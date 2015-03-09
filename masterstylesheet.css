@@ -50,12 +50,13 @@
            position:absolute;
            margin-left:10%;
            margin-right:10%;
+           margin-bottom:20%l
            text-align:center;
           }
           footer {
            position:relative;
            text-align:center;
-           bottom:0px;
+           margin-top:80%;
           }
           strong#fun {
             color: rgb(00,00,00);
