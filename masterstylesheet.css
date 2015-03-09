@@ -56,15 +56,6 @@
            position:relative;
            bottom:0px;
           }
-          .goodbye {
-            color:green;
-            font-family:fantasy;
-            font-size: 35pt;
-            width:500px;
-            position:absolute;
-            left:50px;
-            
-          }
           strong#fun {
             color: rgb(00,00,00);
             font-size:20pt;
@@ -105,3 +96,11 @@
            font-size:40pt;
            font-family:fantasy;
           }
+          #goodbye {
+            color:green;
+            font-family:fantasy;
+            font-size: 35pt;
+            width:500px;
+            position:absolute;
+            left:50px;
+          }          
