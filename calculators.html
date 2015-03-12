@@ -23,9 +23,12 @@
         
     <label for="height">Height in Inches</label>
         <input id="height" type="range" min="0" max="84" value="60">  
-        
+      
+       <h1 id="weightoutput"></h1>
+       <h1 id="heightoutput"></h1>
        <button onclick="bmiconvert();">BMI!</button>
         <h1 id="bmioutput"></h1>
+        
         
         
       <nav id="backbutton">
@@ -45,18 +48,24 @@
                 ch1.innerHTML= "Degrees C: " + c;
                 fh1.innerHTML= "Degrees F: " + f;
             }
-            window.onload = convert;
+            
             
             bmiconvert = function () {
-              weight = document.querySelector("#weight")
-              height = document.querySelector("#height")
+              weight = document.querySelector("#weight");
+              height = document.querySelector("#height");
                 myweight = weight.value;
                 myheight = height.value;
+                weightoutput = document.querySelector("#weightoutput");
+                weightoutput.innerHTML = myweight;
+                heightoutput = document.querySelector("#heightoutput");
+                heightoutput.innerHTML = myheight;
               
               bmih1.innerHTML = ((myweight * 703) / (myheight * myheight)) + " " + "is your BMI";
               bmih1.style.visibility="visible";
 
             }
+            window.onload = convert;
+            window.onload = bmiconvert;
         </script> 
   
   
