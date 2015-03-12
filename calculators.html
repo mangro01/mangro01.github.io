@@ -65,19 +65,24 @@
               
               bmi = ((myweight * 703) / (myheight * myheight));
               if (bmi>=25 && bmi<=30) {
-                judgement.innerHTML = "Mild risk, hit the gym!"
+                judgement.innerHTML = "A bit hefty, hit the gym!"
+                judgement.style.backgroundColor = "orange"
               }
               if (bmi>30) {
                 judgement.innerHTML = "Move your butt! This ain't healthy."
+                judgement.style.backgroundColor = "red"
               }
               if (bmi>=20 && bmi<25) {
                 judgement.innerHTML = "Good work! You're one healthy hog"
+                judgement.style.backgroundColor = "green"
               }
               if (bmi<20 && bmi<=17) {
                 judgement.innerHTML = "You're a bit skinny, partner."
+                judgement.style.backgroundColor = "lightgreen"
               }
               if (bmi<17) {
                 judgement.innerHTML = "Dangerously skinny! Start chowing down!"
+                judgement.style.backgroundColor = "red"
               }
               
             }
