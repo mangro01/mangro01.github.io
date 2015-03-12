@@ -19,7 +19,7 @@
     <h3 id="bmiconverter">Body Mass Indicator Calculator!</h3>
     
     <label for="weight">Weight in Pounds</label>
-        <input id="weight" type="range" min="80" max="400" value="100" onmousemove="bmiconvert();">
+        <input id="weight" type="range" min="80" max="350" value="150" onmousemove="bmiconvert();">
         
     <label for="height">Height in Inches</label>
         <input id="height" type="range" min="0" max="84" value="60" onmousemove="bmiconvert();">  
@@ -27,7 +27,7 @@
        <h1 id="weightoutput"></h1>
        <h1 id="heightoutput"></h1>
         <h1 id="bmioutput"></h1>
-        
+        <h1 id="judgement"></h1>
         
         
       <nav id="backbutton">
@@ -35,6 +35,7 @@
       </nav>
         <script>
                  bmih1 = document.querySelector("#bmioutput");
+                 judgement = document.querySelector("#judgement")
                  
             convert = function() {
               slider = document.querySelector("#slider")
@@ -61,7 +62,23 @@
               
               bmih1.innerHTML = ((myweight * 703) / (myheight * myheight)) + " " + "is your BMI";
               bmih1.style.visibility="visible";
-
+              
+              if (bmih1>=25 && bmih1<=30) {
+                judgement.innerHTML = "Mild risk, hit the gym!"
+              }
+              if (bmih1>30) {
+                judgement.innerHTML = "Move your butt! This ain't healthy."
+              }
+              if (bmih1>=20 && bmih1<25) {
+                judgement.innerHTML = "Good work! You're one healthy hog"
+              }
+              if (bmih1<20 && bmih1<=17) {
+                judgement.innerHTML = "You're a bit skinny, partner."
+              }
+              if (bmih1<17) {
+                judgement.innerHTML = "Dangerously skinny! Start chowing down!"
+              }
+              
             }
             window.onload = convert;
             window.onload = bmiconvert;
