@@ -63,19 +63,20 @@
               bmih1.innerHTML = ((myweight * 703) / (myheight * myheight)) + " " + "is your BMI";
               bmih1.style.visibility="visible";
               
-              if (bmih1>=25 && bmih1<=30) {
+              bmi = ((myweight * 703) / (myheight * myheight));
+              if (bmi>=25 && bmi<=30) {
                 judgement.innerHTML = "Mild risk, hit the gym!"
               }
-              if (bmih1>30) {
+              if (bmi>30) {
                 judgement.innerHTML = "Move your butt! This ain't healthy."
               }
-              if (bmih1>=20 && bmih1<25) {
+              if (bmi>=20 && bmi<25) {
                 judgement.innerHTML = "Good work! You're one healthy hog"
               }
-              if (bmih1<20 && bmih1<=17) {
+              if (bmi<20 && bmi<=17) {
                 judgement.innerHTML = "You're a bit skinny, partner."
               }
-              if (bmih1<17) {
+              if (bmi<17) {
                 judgement.innerHTML = "Dangerously skinny! Start chowing down!"
               }
               
