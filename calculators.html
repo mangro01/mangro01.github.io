@@ -19,10 +19,10 @@
     <h3 id="bmiconverter">Body Mass Indicator Calculator!</h3>
     
     <label for="weight">Weight in Pounds</label>
-        <input id="weight" type="text">
+        <input id="weight" type="range" min="80" max="400" value="100">
         
     <label for="height">Height in Inches</label>
-        <input id="height" type="text">  
+        <input id="height" type="range" min="0" max="84" value="60">  
         
        <button onclick="bmiconvert();">BMI!</button>
         <h1 id="bmioutput"></h1>
