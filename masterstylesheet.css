@@ -116,3 +116,11 @@
           #judgement {
             background-color:yellow;        
           }
+          #height {
+            width:200px;
+            color:green;
+          }
+          #width {
+            width:200px;
+            color:blue;
+          }
