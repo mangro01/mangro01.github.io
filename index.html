@@ -15,11 +15,7 @@
             revert = function()
             { document.body.style.backgroundColor = "powderblue";
               
-              footer = document.querySelector("#footer");
-              footer.style.backgroundColor = "powderblue";
-              
-              section = document.querySelector("#section");
-              section.style.backgroundColor = "powderblue";
+
             }
           </script>          
   </head>
@@ -95,8 +91,9 @@
        <button onclick="change();">Change the Look!</button>
        <button onclick="revert();">Change it back!</button>
        </nav>
+       <footer id="footer">
        <h1 id="goodbye">Have a nice day!</h1>
-      
+      </footer>
       </section>      
   </body>
 </html>
