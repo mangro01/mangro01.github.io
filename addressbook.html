@@ -1,22 +1,30 @@
 <html>
   <head>
   <title>My Address Book</title>
+  <link rel="stylesheet" href="dailyschedule.css" type="text/css">
+  
   </head>
 
    <body>
-   <table>
+    <label for="firstname">First Name</label>
+     <input type="text" id="firstname">
+    <label for="lastname">Last Name</label>
+     <input type="text" id="lastname">
+    <label for="phonenumber">Phone Number</label>
+     <input type="text" id="phonenumber">
+    <label for="email">email</label>
+     <input type="text" id="email">
+     
+    <button onclick="addentry();">Add Entry!</button> 
+    
+   <table id="addressbook">
      <caption>My Address Book</caption>
+     
      <tr>
        <th>First Name</th>
        <th>Last Name</th>
        <th>Phone Number</th>
        <th>Email</th>
-     </tr>
-     <tr>
-       <td id="firstname"></td>
-       <td id="lastname"></td>
-       <td id="phonenumber"></td>
-       <td id="email"></td>
      </tr>
        
      </table>
