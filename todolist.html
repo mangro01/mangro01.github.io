@@ -1,7 +1,13 @@
 <html>
  <head>
   <title>To Do List!</title>
-  
+  <style>
+   .checkoff {
+    color:red;
+   }
+   
+   
+  </style>
  </head>
  <body>
     <label for="list">What do you gotta do?</label>
@@ -26,6 +32,14 @@
       te = document.createTextNode(comment);
       newli.appendChild(te);
      }
+     
+     select=function (){
+      if (this.checked)
+         this.parentNode.classList.add("checkoff"); 
+      else
+         this.parentNode.classList.remove("checkoff");
+     }
+
      
     </script>    
 
