@@ -35,17 +35,7 @@
        addentry = function() {
          table = document.querySelector("#addressbook");
          first = document.querySelector("#firstname");
-         firstentry = first.value;
-         t1.innerHTML= fisrtentry;
-         last = document.querySelector("#lastname");
-         lastentry = last.value;
-         t2.innerHTML = lastentry;
-         phone = document.querySelector("#phonenumber");
-         phoneentry = phone.value;
-         t3.innerHTML = phoneentry;
-         email = document.querySelector("#email")
-         emailentry = email.value;
-         t4.innerHTML = emailentry;
+         
          
          newrow = document.createElement("tr");
          table.appendChild(newrow);
@@ -59,6 +49,17 @@
          t4 = document.createElement("td");
          newrow.appendChild(t4);
          
+         firstentry = first.value;
+         t1.innerHTML= firstentry;
+         last = document.querySelector("#lastname");
+         lastentry = last.value;
+         t2.innerHTML = lastentry;
+         phone = document.querySelector("#phonenumber");
+         phoneentry = phone.value;
+         t3.innerHTML = phoneentry;
+         email = document.querySelector("#email")
+         emailentry = email.value;
+         t4.innerHTML = emailentry;
        }
        
        
