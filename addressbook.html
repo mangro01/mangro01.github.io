@@ -1,7 +1,7 @@
 <html>
   <head>
   <title>My Address Book</title>
-  
+  <link rel="stylesheet" href="dailyschedule.css" type="text/css">
   
   </head>
 
@@ -34,16 +34,6 @@
        
        addentry = function() {
          table = document.querySelector("#addressbook");
-         
-         newrow = document.createElement("tr");
-         table.appendChild(newrow);
-         
-         
-         t1 = document.createElement("td");
-         newrow.appendChild(t1);
-         t2 = document.createElement("td");
-         newrow.appendChild(t2);
-         
          first = document.querySelector("#firstname");
          firstentry = first.value;
          t1.innerHTML= fisrtentry;
@@ -52,14 +42,23 @@
          t2.innerHTML = lastentry;
          phone = document.querySelector("#phonenumber");
          phoneentry = phone.value;
+         t3.innerHTML = phoneentry;
          email = document.querySelector("#email")
          emailentry = email.value;
+         t4.innerHTML = emailentry;
          
+         newrow = document.createElement("tr");
+         table.appendChild(newrow);
          
+         t1 = document.createElement("td");
+         newrow.appendChild(t1);
+         t2 = document.createElement("td");
+         newrow.appendChild(t2);
+         t3 = document.createElement("td");
+         newrow.appendChild(t3);
+         t4 = document.createElement("td");
+         newrow.appendChild(t4);
          
-         newrow.appendChild()
-         
-         first.innerHTML
        }
        
        
