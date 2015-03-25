@@ -34,9 +34,6 @@
        
        addentry = function() {
          table = document.querySelector("#addressbook");
-         first = document.querySelector("#firstname");
-         
-         
          newrow = document.createElement("tr");
          table.appendChild(newrow);
          
@@ -49,6 +46,7 @@
          t4 = document.createElement("td");
          newrow.appendChild(t4);
          
+         first = document.querySelector("#firstname");
          firstentry = first.value;
          t1.innerHTML= firstentry;
          last = document.querySelector("#lastname");
