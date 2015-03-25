@@ -34,13 +34,27 @@
        
        addentry = function() {
          table = document.querySelector("#addressbook");
-         first = document.querySelector("#firstname");
-         last = document.querySelector("#lastname");
-         phone = document.querySelector("#phonenumber");
-         email = document.querySelector("#email")
          
          newrow = document.createElement("tr");
          table.appendChild(newrow);
+         
+         
+         t1 = document.createElement("td");
+         newrow.appendChild("t1");
+        
+         first = document.querySelector("#firstname");
+         firstentry = first.value;
+         t1.innerHTML= fisrtentry;
+         last = document.querySelector("#lastname");
+         lastentry = last.value;
+         phone = document.querySelector("#phonenumber");
+         phoneentry = phone.value;
+         email = document.querySelector("#email")
+         emailentry = email.value;
+         
+         
+         
+         newrow.appendChild()
          
          first.innerHTML
        }
