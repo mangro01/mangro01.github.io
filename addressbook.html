@@ -42,12 +42,14 @@
          t1 = document.createElement("td");
          newrow.appendChild(t1);
          t2 = document.createElement("td");
-
+         newrow.appendChild(t2);
+         
          first = document.querySelector("#firstname");
          firstentry = first.value;
          t1.innerHTML= fisrtentry;
          last = document.querySelector("#lastname");
          lastentry = last.value;
+         t2.innerHTML = lastentry;
          phone = document.querySelector("#phonenumber");
          phoneentry = phone.value;
          email = document.querySelector("#email")
