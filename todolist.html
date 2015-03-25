@@ -29,12 +29,12 @@
       newli = document.createElement("li")
       thelist.appendChild(newli);
       
-      cb.onclick = select;
       cb = document.createElement("input");
       cb.type = "checkbox";
       newli.appendChild(cb);
       te = document.createTextNode(comment);
       newli.appendChild(te);
+      cb.onclick = select;
      }
      
      select=function (){
