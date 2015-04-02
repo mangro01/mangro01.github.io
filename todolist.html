@@ -9,7 +9,9 @@
     background-color:powderblue;
     text-align:center;
    }
-   
+   li {
+    list-style-type:none;
+   }
    .Urgent {
         color: red;
     }
@@ -41,6 +43,10 @@
        <button onclick="clear();">Clear your List!</button>
         
     <script>
+     clear = function() {
+      list = document.querySelector("#out");
+      list.innerHTML = "";
+     }
      
      add = function() {
       addtext = document.querySelector("#list"); 
@@ -72,11 +78,6 @@
          this.parentNode.classList.add("checkoff"); 
       else
          this.parentNode.classList.remove("checkoff");
-     }
-
-     clear = function() {
-      list = document.querySelector("#out");
-      list.innerHTML = "";
      }
      
     </script>    
