@@ -9,10 +9,26 @@
     background-color:powderblue;
    }
    
+   .Red{
+        color: red;
+    }
+    .Blue{
+      color: blue;
+    }
+    .Green{
+     color: green;
+        }
+   
    
   </style>
  </head>
  <body>
+    <select id="colorchooser">
+        <option></option>
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+    </select>
     <label for="list">What do you gotta do?</label>
       <input id="list" type="text">
         <button onclick="add();">Add your Chore</button>
@@ -35,6 +51,15 @@
       te = document.createTextNode(comment);
       newli.appendChild(te);
       cb.onclick = select;
+      
+      colorpicker=document.querySelector("#colorchooser");
+      theindex=colorpicker.selectedIndex;
+      theoption=colorpicker.options[theindex];
+      thecolor=theoption.value;
+      
+      newli.classList.add(thecolor);
+      
+      out.appendChild(newli);
      }
      
      select=function (){
