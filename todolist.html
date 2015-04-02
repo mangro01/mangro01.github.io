@@ -44,8 +44,9 @@
         
     <script>
      clear = function() {
-      list = document.querySelector("#out");
-      list.innerHTML = " ";
+      thelist = document.querySelector("#out");
+      newli = document.createElement("")
+      thelist.appendChild(newli);
      }
      
      add = function() {
